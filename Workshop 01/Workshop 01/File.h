@@ -21,4 +21,3 @@ namespace sdds
 };
 
 #endif
-

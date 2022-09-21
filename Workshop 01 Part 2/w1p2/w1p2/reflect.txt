@@ -1,0 +1,11 @@
+                                                                                                                                               Workshop 1- Reflection
+/*
+Name - Harsh Puri
+Student ID - 168387215
+Seneca ID - hpuri4@myseneca.ca
+Section - NBB
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+*/
+
+In this Workshop 1 i have used some previous concepts and logics that i used in the last of IPC144 like pointers and use of structures. I have used those logics but now in this workshop we have used C++ and i have learned the C++ syntax and also about basic concepts like cin and cout. I have also learned about some practices like we have to never use using namespace in .h file. I have learned how to create our own library using sdds and use it in the main file. Overall, i have learned many new concepts and some practices that we have to follow while doing our C++ workshops.
+
