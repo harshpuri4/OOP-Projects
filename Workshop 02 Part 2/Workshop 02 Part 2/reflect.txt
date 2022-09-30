@@ -1,0 +1,9 @@
+                                                                                                                                       Reflection(Workshop - 2)
+
+Name - Harsh Puri
+Student ID - 168387215
+Seneca ID - hpuri4@myseneca.ca
+Section - NBB
+
+In Workshop 2 i have learned the concept of dynamic allocation of memory. This workshop was a little challenging than the first workshop. There were a lot of difficult parts in this worshop but the new concept of dynamic memory. It basically determines the size of the size of array after the program starts. We can easily clear the array and its contents using delete[]. Dynamic allocation of memory saved a lot of space which an array usually use but this concept saved a lot of time.
+ 
