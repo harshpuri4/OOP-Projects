@@ -1,0 +1,16 @@
+Reflection(Workshop - 3)
+
+Name - Harsh Puri
+Student ID - 168387215
+Seneca ID - hpuri4@myseneca.ca
+Section - NBB
+
+This Workshop helped me learn about the constructor of a class. The constructor is used to save a lot of memory because then we don't have to create code for each object. I also got to know about the destructor which deallocates allocated memory and because of that we don't have to care about the deleted allocated memory. The most difficult part of this workshop was to use the of the special pointer which returns the address of the current object. 
+For example:
+void TagList::set()
+    {
+        this->numTags = 0;
+        this->longestTag = 0;
+        this->NameTags = nullptr;
+    }
+Overall, i learned a lot of new concepts from from this workshop.
