@@ -1,0 +1,9 @@
+Reflection(Workshop - 4)
+
+Name - Harsh Puri
+Student ID - 168387215
+Seneca ID - hpuri4@myseneca.ca
+Section - NBB
+
+In this week we learned about operators and their use like there are 3 type of operators Binary, unary prefix and unary postfix. In this workshop i learned how to use operators in a corrrect way because wrong use of operators can give incorrect outputs. I have used different operators in the workshop. For example - There are operators like <=, >=, == , ||, && etc. 
+I have also learned about the concept of helper functions. These are used to access to the information of an object from a class through their parameters and they support a class. Overall, this workshop was also bit difficult but taught a lot of concepts.
