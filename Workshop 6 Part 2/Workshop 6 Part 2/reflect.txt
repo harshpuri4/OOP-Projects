@@ -1,0 +1,12 @@
+Reflection(Workshop - 6)
+
+Name - Harsh Puri
+Student ID - 168387215
+Seneca ID - hpuri4@myseneca.ca
+Section - NBB
+
+This was the first workshop where part 2 was easier to complete than part 1 because part 2 was mostly based on concepts covered in part 1. I learned several new concepts during this workshop. Begin by learning how to use the input and output streams while overloading operators. I also learned how to create copy constructors and copy assignment operator overloads, which are also used in copy constructors.
+
+I also used the concept of dynamically resizing a dynamic array's memory. 
+In the workshop, for example, I created a larger array, copied the original data into it, assigned the new elements to that array, and deleted it.
+I have learned a lot in this workshop and it it was great to make my concepts stronger around the concept of array's memory allocation.
