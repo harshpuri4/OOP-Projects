@@ -1,0 +1,20 @@
+Reflection(Workshop - 7)
+
+Name - Harsh Puri
+Student ID - 168387215
+Seneca ID - hpuri4@myseneca.ca
+Section - NBB
+
+In this workshop, i have practised class inheritance, which is when one class inherits the features of another. The class that inherits instance variables from another class is referred to as the derived class, whereas the class that is inherited is referred to as the base class. As an example,
+class VehicleBasic
+        {
+                char v_plate[MAX_NUM_LEN + 1];
+                char v_address[MAX_ADD_LEN + 1];
+                int v_year{};
+    }
+class Dumper : public VehicleBasic
+    {
+        double d_capacity;
+        double d_load; //current cargo
+    }
+In this workshop, I created two classes: VehicleBasic and Dumper. Class Dumper inherits VehicleBasic features such as plate, address, and year, as well as its own features such as capacity and load. When an object class Dumper is created, it contains 5 variables from VehicleBasic and Dumper, whereas if an object class VehicleBasic is created, it contains only 3 variables defined in its class. The features of the derived class cannot be inherited by the base class. I did this workshop without facing any major difficulty.

@@ -1,0 +1,40 @@
+Reflection(Workshop - 8)
+
+Name - Harsh Puri
+Student ID - 168387215
+Seneca ID - hpuri4@myseneca.ca
+Section - NBB
+
+This workshop taught me about abstract classes, which have methods that are inherited by their subclasses and at least one pure virtual function. If the derived class inherits functions from the base class but does not declare them, the abstract class is intended to be used as a base class.
+The derived class also becomes an abstract class due to the pure virtual function from the base class.
+For instance, in workshop 8:
+class Shape{
+        public:
+            virtual void draw(std::ostream& os) const = 0;
+            virtual void getSpecs(std::istream& is) = 0;
+            virtual ~Shape();
+            friend std::ostream& operator<<(std::ostream& os, const Shape& s);
+            friend std::istream& operator>>(std::istream& is, Shape& s);
+    };
+
+  class LblShape : public Shape{
+    private:
+        char* m_label;
+    protected:
+        const char* label()const;
+    public:
+        LblShape();
+        LblShape(const char* label);
+        ~LblShape();
+        LblShape(const LblShape& LblShape) = delete;
+        LblShape& operator=(const LblShape& LblShape) = delete;
+        void getSpecs(std::istream& is);
+    };
+
+the class Shape has 2 pure virtual function :
+ virtual void draw(std::ostream& os) const = 0;
+ virtual void getSpecs(std::istream& is) = 0;
+so it's an abstract class. Then I had class LblShape which implemented the function
+getSpecs() from class Shape, however, the function draw() was not implemented, so
+the LblShape is still an abstract class.
+The abstract classes can not be used to create objects. If we want to use the functions and in an abstract class, it needs to be overridden. 
