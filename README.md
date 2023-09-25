@@ -1,5 +1,2 @@
-# OOP244-Works
-- Harsh Puri
-- Student No: 168387215
-- Email Id: hpuri4@myseneca.ca
-- OOP244NBB
+# OOP Projects
+These are some assignments and projects that i did during my 2nd semester of school in which i learned the OOP's Concepts using C++.
